@@ -16,5 +16,6 @@ app.listen(PORT, () => {
 
 
 app.get('/users', (req, res) => {
+    console.log("rescieve req")
     res.json(users);
 });
